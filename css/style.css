@@ -10,3 +10,8 @@ body{
 .hidden{
     display: none;
 }
+#card{
+    background: linear-gradient(hsl(213, 19%, 18%), hsl(216, 12%, 8%));
+    height:400px;
+    width:400px;
+}
