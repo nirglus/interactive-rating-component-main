@@ -75,3 +75,17 @@ body{
 .btn:active{
     transform: translateY(2px);
 }
+.thanksCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(hsl(213, 19%, 15%), hsl(216, 12%, 11%));
+    height: 400px;
+    width: 365px;
+    padding: 20px 25px 20px 25px;
+    border-radius: 20px;
+    align-items: center;
+}
+.thanksCard h1{
+    color: #fff;
+}
