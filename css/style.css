@@ -36,5 +36,9 @@ body{
 }
 #card h1{
     color: #fff;
-
+}
+#card p{
+    color: rgba(149, 158, 172, 0.8);
+    margin-top: 0;
+    width: 350px;
 }
