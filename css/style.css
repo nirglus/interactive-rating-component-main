@@ -30,3 +30,6 @@ body{
     margin-left: 10px;
     background-color: hsl(213, 18%, 21%);;
 }
+.top-icon img{
+    transform: scale(0.9);
+}
