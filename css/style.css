@@ -11,6 +11,9 @@ body{
     display: none;
 }
 #card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     background: linear-gradient(hsl(213, 19%, 17%), hsl(216, 12%, 11%));
     height:400px;
     width:400px;
