@@ -16,9 +16,9 @@ body{
     flex-direction: column;
     justify-content: space-around;
     background: linear-gradient(hsl(213, 19%, 15%), hsl(216, 12%, 11%));
-    height:400px;
-    width:400px;
-    padding: 20px;
+    height: 400px;
+    width: 390px;
+    padding: 20px 0px 20px 25px;
     border-radius: 20px;
 }
 .top-icon, .dig{
@@ -26,13 +26,10 @@ body{
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     margin-left: 10px;
     background-color: hsl(213, 19%, 18%);
-}
-.top-icon img{
-    transform: scale(0.9);
 }
 #card h1{
     color: #fff;
@@ -45,4 +42,6 @@ body{
 .nums-div{
     display: flex;
     color: rgba(149, 158, 172, 0.7);
+    font-size: 14px;
+    gap: 14px;
 }
