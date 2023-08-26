@@ -30,6 +30,7 @@ body{
     height: 50px;
     margin-left: 10px;
     background-color: hsl(213, 19%, 18%);
+    transition: 0.3s;
 }
 #card h1{
     color: #fff;
@@ -46,6 +47,14 @@ body{
     color: rgba(149, 158, 172, 0.7);
     font-size: 14px;
     gap: 14px;
+}
+.dig:hover{
+    cursor: pointer;
+    background-color: hsl(25, 97%, 53%);
+    color: #fff;
+}
+.selected{
+    background-color: hsl(217, 12%, 63%);
 }
 .btn{
     background-color: hsl(25, 97%, 53%);
