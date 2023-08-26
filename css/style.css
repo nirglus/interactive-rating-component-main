@@ -88,6 +88,7 @@ body{
 }
 .selected-result{
     padding: 4px 20px;
+    margin-top: 10px;
     border-radius: 20px;
     font-size: 14px;
     background-color: hsl(213, 19%, 18%);
@@ -95,9 +96,11 @@ body{
 }
 .thanksCard h1{
     color: #fff;
+    margin-bottom: 0;
 }
 .thanksCard p{
     color: rgba(149, 158, 172, 0.7);
     text-align: center;
     line-height: 1.5;
+    margin-top: 0;
 }
