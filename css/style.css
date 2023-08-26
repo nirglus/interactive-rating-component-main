@@ -78,7 +78,7 @@ body{
 .thanksCard{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     background: linear-gradient(hsl(213, 19%, 15%), hsl(216, 12%, 11%));
     height: 400px;
     width: 365px;
@@ -95,4 +95,9 @@ body{
 }
 .thanksCard h1{
     color: #fff;
+}
+.thanksCard p{
+    color: rgba(149, 158, 172, 0.7);
+    text-align: center;
+    line-height: 1.5;
 }
