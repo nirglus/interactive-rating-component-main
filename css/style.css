@@ -50,6 +50,9 @@ body{
     background-color: hsl(25, 97%, 53%);
     color: #fff;
 }
+.dig:focus{
+    background-color: hsl(217, 12%, 63%);
+}
 .btn{
     background-color: hsl(25, 97%, 53%);
     color: #fff;
