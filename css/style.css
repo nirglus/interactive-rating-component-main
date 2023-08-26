@@ -15,13 +15,13 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background: linear-gradient(hsl(213, 19%, 17%), hsl(216, 12%, 11%));
+    background: linear-gradient(hsl(213, 19%, 15%), hsl(216, 12%, 11%));
     height:400px;
     width:400px;
     padding: 20px;
     border-radius: 20px;
 }
-.top-icon{
+.top-icon, .dig{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,7 +29,7 @@ body{
     width: 40px;
     height: 40px;
     margin-left: 10px;
-    background-color: hsl(213, 18%, 21%);;
+    background-color: hsl(213, 19%, 18%);
 }
 .top-icon img{
     transform: scale(0.9);
@@ -38,7 +38,11 @@ body{
     color: #fff;
 }
 #card p{
-    color: rgba(149, 158, 172, 0.8);
+    color: rgba(149, 158, 172, 0.7);
     margin-top: 0;
     width: 350px;
+}
+.nums-div{
+    display: flex;
+    color: rgba(149, 158, 172, 0.7);
 }
