@@ -33,6 +33,8 @@ body{
 }
 #card h1{
     color: #fff;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 #card p{
     color: rgba(149, 158, 172, 0.7);
