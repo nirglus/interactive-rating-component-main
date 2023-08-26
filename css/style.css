@@ -37,6 +37,7 @@ body{
 .card p{
     color: rgba(149, 158, 172, 0.7);
     margin-top: 0;
+    margin-bottom: 0;
     width: 350px;
 }
 .nums-div{
